@@ -5,6 +5,7 @@ import { FC, useState } from 'react'
 import { signIn } from "next-auth/react"
 import { toast } from 'react-hot-toast'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface pageProps { }
 
@@ -27,7 +28,8 @@ const Page: FC<pageProps> = ({ }) => {
             <div className="w-full flex flex-col items-center max-w-md space-y-8">
                 <div className="flex flex-col items-center gap-8">
                     <Image src="https://cdn.vectorstock.com/i/1000x1000/51/71/initial-monogram-letter-nc-logo-design-template-vector-29675171.webp" alt="logo" width={50} height={50} className='rounded-full' />
-                    <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
+                    <h1 className='font-bold text-2xl -mt-2'>N Chat</h1>
+                    <h2 className="mt-4 text-center text-3xl font-bold tracking-tight text-gray-900">
                         Sign in to your account
                     </h2>
                 </div>
@@ -63,6 +65,7 @@ const Page: FC<pageProps> = ({ }) => {
                     )}
                     Google
                 </Button>
+                <div className='font-bold cursor-pointer'><Link href={'/help'}>Help & support</Link></div>
             </div>
         </div>
     </>
