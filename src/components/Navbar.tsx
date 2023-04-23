@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link href="/dashboard" className='flex justify-center items-center'>
                 {/* <Image src={"./public/vercel.svg"} width={30} height={30} alt=''/> */}
-                <img src="https://cdn.vectorstock.com/i/1000x1000/51/71/initial-monogram-letter-nc-logo-design-template-vector-29675171.webp" alt="logo" width={40} height={40} className='rounded-full' />
+                <img src="https://cdn.vectorstock.com/i/1000x1000/51/71/initial-monogram-letter-nc-logo-design-template-vector-29675171.webp" alt="logo" width={30} height={30} className='rounded-full mr-2' />
                 <h2 className="text-2xl text-white font-bold">N Chat</h2>
               </Link>
               <div className="md:hidden">

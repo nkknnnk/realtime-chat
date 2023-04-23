@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="text-gray-600 body-font mt-12 lg:fixed bottom-0 bg-white w-full">
             <div className="container px-5 py-8 mr-6 flex items-center sm:flex-row flex-col">
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                    <img src="https://cdn.vectorstock.com/i/1000x1000/51/71/initial-monogram-letter-nc-logo-design-template-vector-29675171.webp" alt="logo" width={40} height={40} className='rounded-full' />
+                    <img src="https://cdn.vectorstock.com/i/1000x1000/51/71/initial-monogram-letter-nc-logo-design-template-vector-29675171.webp" alt="logo" width={30} height={30} className='rounded-full' />
                     <span className="ml-3 text-xl">N Chat</span>
                 </a>
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© {year} Nitish Kumar —
